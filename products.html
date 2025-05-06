@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Pizzas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
 
+    h1 {
+      text-align: center;
+      color: #b7410e;
+    }
+
+    .pizza-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .pizza-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: #fff;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pizza-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .pizza-card h2 {
+      color: #d35400;
+      margin-top: 10px;
+    }
+
+    .pizza-card p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Pizza Selection</h1>
+
+  <div class="pizza-grid">
+    <div class="pizza-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="Supreme Pizza">
+      <h2>Supreme Pizza</h2>
+      <p>Loaded with pepperoni, sausage, peppers, onions, and olives.</p>
+    </div>
+
+    <div class="pizza-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Pepperoni_pizza.jpg" alt="Pepperoni Pizza">
+      <h2>Pepperoni Pizza</h2>
+      <p>Classic favorite topped with rich tomato sauce and spicy pepperoni.</p>
+    </div>
+
+    <div class="pizza-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="Margherita Pizza">
+      <h2>Margherita</h2>
+      <p>Fresh mozzarella, basil, and tomato sauce — simple and perfect.</p>
+    </div>
+
+    <div class="pizza-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Veggie_Pizza.jpg" alt="Veggie Pizza">
+      <h2>Veggie Pizza</h2>
+      <p>A garden of flavors with mushrooms, spinach, onions, and bell peppers.</p>
+    </div>
+
+    <div class="pizza-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/BBQ_Chicken_Pizza.jpg" alt="BBQ Chicken Pizza">
+      <h2>BBQ Chicken</h2>
+      <p>Sweet BBQ sauce, grilled chicken, red onions, and cilantro.</p>
+    </div>
+  </div>
+
+</body>
+</html>
